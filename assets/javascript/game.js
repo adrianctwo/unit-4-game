@@ -4,4 +4,6 @@ $(document).ready(function(){
     $("#wins").text(wins);
     $("#loses").text(loses);
 
+    var gem = ["assets/images/red.png", "assets/images/purple.png", "assets/images/green.png", "assets/images/pink.png"];
+
 })
