@@ -1,8 +1,8 @@
 $(document).ready(function(){
     var wins = 0;
-    var loses = 0;
-    $("#wins").text(wins);
-    $("#loses").text(loses);
+    var losses = 0;
+    $("#wins").text("Wins: " + wins);
+    $("#losses").text("Losses:" + losses);
 
     var gems = ["assets/images/red.png", "assets/images/purple.png", "assets/images/green.png", "assets/images/pink.png"];
 
@@ -55,7 +55,7 @@ $(document).ready(function(){
             // Pop-up alert
             alert("You win!");
             // Update website to show win score
-            $(".wins-text").text("Wins: " + wins);
+            $("#wins").text("Wins: " + wins);
             // Reset
             $("#gem").empty();
             // Get new gem value
@@ -71,7 +71,7 @@ $(document).ready(function(){
             // pop-up alert
             alert("You lose!");
             // update website to show losses score
-            $(".losses-text").text("Loses:" + losses);
+            $("#losses").text("Losses:" + losses);
             // reset
             $("#gem").empty();
             // get new gem value
