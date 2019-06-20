@@ -1,4 +1,91 @@
-img {
+.gemImg img {
     width: 50px;
     height: 50px;
+    margin: 0px 113px 0px 113px;
+}
+
+p {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.banner {
+    text-align: center;
+    background-color: #16014F;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner P {
+    margin: 0;
+}
+
+.selectGem {
+    text-align: center;
+    padding: 75px 30px 15px 30px;
+}
+
+.selectGem P {
+    margin: 0;
+    font-size: 30px;
+}
+
+.leftStats P {
+    background-color: #16014F;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.rightStats P {
+    background-color: #16014F;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    padding-right: 15px;
+}
+
+.banner h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+}
+
+.banner P {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+.col-md-6 {
+    padding: 0px;
+}
+
+.col-md-12 {
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/background.png");
+}
+
+#currentValue {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    margin-top: 75px;
+}
+
+#targetValue {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    margin-top: 75px;
+    
+}
+
+#wins {
+    padding-bottom:75px;
+}
+
+#losses {
+    padding-bottom:75px;
 }
