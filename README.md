@@ -4,6 +4,7 @@ Web browser game built with HTML, Javascript, jQuery, Bootstrap, and CSS.
 Interactive game where HTML is dynamically updated.
 
 Game Information:
+- https://adrianctwo.github.io/unit-4-game/
 - Target Value is randomly generated with a value between 19-120.
 - Each Gem is randomly generated with a value between 1-12.
 
